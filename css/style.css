@@ -13,12 +13,12 @@ h1{font-size: 2.5em;
 text-align: center}
 
 footer{font-size: 12px;}
-
-@media only screen{
 body{
 	background-color: lightblue;
 	font-family: 'Source Serif Pro', Times, serif;
 }
+
+@media only screen{
 
 .flex-container {
 	padding: 0;
@@ -94,7 +94,6 @@ body{
 
 	
 @media screen and (max-width:1200px) and (orientation: landscape){
-	body{background-color: lightpink}
 	.flex-container {
 		display: grid; 
 		grid-template-columns: auto auto auto auto;
@@ -141,7 +140,6 @@ body{
 
 
 @media screen and (max-width: 700px) and (orientation: portrait){
-	body{background-color: lightgreen}
 	.flex-container {
 			display: grid; 
 			grid-template-columns: auto auto auto;
@@ -171,13 +169,13 @@ body{
 	.flex-index-image-2{grid-row-start: 4;}
 
 
-	.flex-work-item-1{grid-row-start:1}
-	.flex-work-item-2{grid-row-start:3}
-	.flex-work-item-3{grid-row-start:5}
+	.flex-work-item-1{grid-row-start:1; grid-column-start:1; grid-column-end: 2;width:90%}
+	.flex-work-item-2{grid-row-start:3;width:90%}
+	.flex-work-item-3{grid-row-start:5;width:90%}
 	
 	.flex-work-image-1{grid-row-start:2; width:80%; height:80%}
-	.flex-work-image-2{grid-row-start:4; width:50%; height:50%;}
-	.flex-work-image-3{grid-row-start:4; grid-column-start: 2; width:60%; height:60%}
+	.flex-work-image-2{grid-row-start:4; grid-column-start:1; width:70%; height:70%;}
+	.flex-work-image-3{grid-row-start:4; grid-column-start: 2; width:70%; height:70%}
 
 
 
