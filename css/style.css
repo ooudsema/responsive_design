@@ -40,11 +40,11 @@ body{
 	.flex-internship-item-2{grid-row-start:2; grid-column-start: 1;width:60%}
 	.flex-internship-item-3{grid-row-start:3; grid-column-start:1;width:60%}
 	
-	.flex-index-item-1 {grid-row-start: 1; width: 90%}
-	.flex-index-item-2{grid-row-start:3; width:90% }
+	.flex-index-item-1 {grid-row-start: 1; width: 90%; padding-left: 5%}
+	.flex-index-item-2{grid-row-start:3; width:90%; padding-left: 5%}
 	
-	.flex-index-image-1{grid-row-start: 2;}
-	.flex-index-image-2{grid-row-start: 4;}
+	.flex-index-image-1{grid-row-start: 2;padding-left: 5%}
+	.flex-index-image-2{grid-row-start: 4;padding-left: 5%}
 
 
 	.flex-work-item-1{grid-row-start:1; grid-column-start:1; grid-column-end: 2;width:90%}
